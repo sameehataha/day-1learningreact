@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(16, 180, 217);
+    height: 90px;
+    padding: 30px 25px;
+}
+nav > h3, nav > h4 {
+    margin: 0px;
+}
+
+nav > h3 {
+    margin-right: auto;
+    color: chartreuse;
+    font-size: 50px;
+}
+nav > h4 {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+nav > img {
+    height: 80px;
+    width: 80px;
+    margin-right: 12px;
+    font-weight: 800;
+}
+.main{
+    margin-top: 0px;
+}
+.h1{
+     margin:5px;
+     font-size: 39px;
+     letter-spacing: -0.05em;
+}
+.facts{
+    margin-top: 5px;
+    max-width: 400px;
+}
+.facts > li{
+    line-height: 19px;
+    padding-block: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.facts > li::marker{
+    font-size: 2.0rem;
+    color: #61DAFB;
+}
